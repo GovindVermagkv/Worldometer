@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-import Prakash from "./trial";
+import Rangechart from "./Rangechart";
 
 
 
@@ -28,7 +28,7 @@ const Main=()=>{
 
         <div id="product_order_profile">
             <div>7</div>
-            <div> <Prakash /></div>
+            <div> <Rangechart /></div>
             <div>9</div>
         </div>
 

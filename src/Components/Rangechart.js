@@ -2,7 +2,7 @@
 import React, {useState } from "react";
 import Chart from "react-apexcharts";
 
-const Prakash=()=>{
+const Rangechart=()=>{
 
     const [state] = useState({
       options: {
@@ -44,4 +44,4 @@ const Prakash=()=>{
     );
 }
 
-export default Prakash;
+export default Rangechart;
