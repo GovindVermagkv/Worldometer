@@ -1,12 +1,14 @@
 // import logo from './logo.svg';
 import './App.css';
-import Example from './Components/trial';
+// import Pollution from './Components/pollution';
+import Layout from './Components/Layout';
 
 function App() {
   return (
-    <div>
-    <h1>hello</h1>
-     <Example />
+    <div id='App_container'>
+     {/* <Pollution /> */}
+     <Layout />
+     
     </div>
   );
 }
