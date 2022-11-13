@@ -222,3 +222,13 @@ margin: 10px 0px;
   color: navy;
 }
 /* --------------pollution------- */
+
+/* ------------statics-------- */
+.app{
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: 1px 0px 1px 1px rgb(170, 0, 255);
+}
+
+/* -----------statics------------ */

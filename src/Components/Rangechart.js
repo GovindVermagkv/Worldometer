@@ -1,6 +1,7 @@
 
 import React, {useState } from "react";
 import Chart from "react-apexcharts";
+import '../App.css'
 
 const Rangechart=()=>{
 
@@ -24,23 +25,13 @@ const Rangechart=()=>{
 
     return (
       <div className="app">
-        <div className="row">
-          <div className="mixed-chart">
             <Chart
               options={state.options}
               series={state.series}
               type="bar"
-              width="500"
+              width="100%"
             />
           </div>
-          {/* <Chart
-    options={this.state.options}
-    series={this.state.series}
-    type="line"
-    width="500"
-  /> */}
-        </div>
-      </div>
     );
 }
 

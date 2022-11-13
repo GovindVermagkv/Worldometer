@@ -1,6 +1,6 @@
 import React from "react";
 import '../App.css'
-// import Rangechart from "./Rangechart";
+import Rangechart from "./Rangechart";
 import Pollution from "./pollution";
 
 
@@ -23,7 +23,7 @@ const Main=()=>{
                 </div>
 
         <div id='static_revenue'>
-            <div>5</div>
+            <div><Rangechart /> </div>
             <div>6</div>
         </div>
 
