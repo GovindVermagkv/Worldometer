@@ -1,14 +1,12 @@
-// import logo from './logo.svg';
-import './App.css';
-// import Pollution from './Components/pollution';
+import {React} from "react";
+import "../App.css";
 import Layout from './Components/Layout';
 
 function App() {
   return (
     <div id='App_container'>
-     {/* <Pollution /> */}
-     <Layout />
-     
+      <Layout />
+
     </div>
   );
 }

@@ -1,11 +1,11 @@
-import React from "react";
-import '../App.css'
+import {React} from "react";
+import "../App.css";
 
-const Footer=()=>{
-    return(
+const Footer = () => {
+    return (
         <>
             <div id='footer_container'>
-            <h1>&copy;PPG</h1>
+                <h1>&copy;PPG</h1>
 
             </div>
         </>
